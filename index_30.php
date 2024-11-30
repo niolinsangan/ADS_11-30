@@ -39,25 +39,31 @@ $conn->close();
 ?>
 
 
+
+
+
+
 <!DOCTYPE html>
 <html>
+  
 <head>
+<link rel="stylesheet" href="style.css">
 <h1>Add Student Record</h1>
 </head>
 <body>
     <form action="" method="post">
-        <label>Student Number:</label> <input type="text" name="s_number"><br><br>
-        <label>First Name:</label><input type="text" name="s_fn"><br><br>
-        <label>Middle Name:</label><input type="text" name="s_mn"><br><br>                
-        <label>Last Name:</label><input type="text" name="s_ln"><br><br>       
-        <label>Gender:</label><input type="text" name="s_gender"><br><br>          
-        <label>Birthday:</label><input type="text" name="s_birthday"><br><br>      
+        <label>Student Number:</label> <input type="text" name="s_number" placeholder="ex. 2020-10-0511CN"><br><br>
+        <label>First Name:</label><input type="text" name="s_fn" placeholder="ex. Antonio"><br><br>
+        <label>Middle Name:</label><input type="text" name="s_mn" placeholder="ex. Adriano"><br><br>                
+        <label>Last Name:</label><input type="text" name="s_ln" placeholder="ex. Linsangan"><br><br>       
+        <label>Gender:</label><input type="text" name="s_gender" placeholder="ex.1 for  M, 0 for F"><br><br>          
+        <label>Birthday:</label><input type="date" name="s_birthday"><br><br>      
 
-        <label>Contact Number:</label><input type="text" name="s_contact"><br><br>    
-        <label>Street Name:</label><input type="text" name="s_street"><br><br>   
-        <label>Town Name:</label><input type="text" name="s_town"><br><br>               
-        <label>Province Name:</label><input type="text" name="s_province"><br><br>
-        <label>Zip Code:</label><input type="text" name="s_zipcode"><br><br>                                
+        <label>Contact Number:</label><input type="text" name="s_contact" placeholder="09*********"><br><br>    
+        <label>Street Name:</label><input type="text" name="s_street" placeholder="ex. Gen Luna St."><br><br>   
+        <label>Town Name:</label><input type="text" name="s_town" placeholder="Town ID #"><br><br>               
+        <label>Province Name:</label><input type="text" name="s_province" placeholder="Province ID # EX. 153"><br><br>
+        <label>Zip Code:</label><input type="text" name="s_zipcode" placeholder="ex. 53XX"><br><br>                                
       
         <button type="submit" name="submit"> Submit </button>
 </body> </html>
