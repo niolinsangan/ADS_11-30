@@ -61,7 +61,7 @@ $conn->close();
 
         <label>Contact Number:</label><input type="text" name="s_contact" placeholder="09*********"><br><br>    
         <label>Street Name:</label><input type="text" name="s_street" placeholder="ex. Gen Luna St."><br><br>   
-        <label>Town Name:</label><input type="text" name="s_town" placeholder="Town ID #"><br><br>               
+        <label>Town Name:</label><input type="text" name="s_town" placeholder="Town ID # ex. 123"><br><br>               
         <label>Province Name:</label><input type="text" name="s_province" placeholder="Province ID # EX. 153"><br><br>
         <label>Zip Code:</label><input type="text" name="s_zipcode" placeholder="ex. 53XX"><br><br>                                
       
